@@ -35,6 +35,7 @@ describe("SystemOfEquations", function () {
 
     it("Should return true for correct proof", async function () {
         //[assignment] Add comments to explain what each line is doing
+        //it's obvious similar to in Q1, first we give inputs, using signals and proof to export to calldata and then strip to get a,b,c for verification.
         const { proof, publicSignals } = await groth16.fullProve({
             "x": ["15","17","19"],
             "A": [["1","1","1"],["1","2","3"],["2","-1","1"]],

@@ -3,6 +3,8 @@ node_modules
 coverage
 coverage.json
 typechain
+Q2/contracts/circuits/powersOfTau28_hez_final_10.ptau
+
 
 #Hardhat files
 cache

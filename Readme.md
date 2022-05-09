@@ -1,0 +1,1 @@
+Adding powers_of_tau in gitignore to ignore while commits
